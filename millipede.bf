@@ -9,17 +9,17 @@ Setup the head
 +++++ +++++		Set #0 to 10
 [
 	>+++		Incr #1 by 3
-	>++++		Incr #2 by 4
+	>+++++ ++++	Incr #2 by 9
 	>+++++ +++++ +	Incr #3 by 11
-	>+++++ ++++	Incr #4 by 9
+	>++++		Incr #4 by 4
 	>+		Incr #5 by 1
 
 	<<<<<-		Decr #0
 ]
 >++			Incr #1 by 3 now we have ' '
->+++++++		Incr #2 by 7 now we have '/'
+>++			Incr #2 by 2 now we have '\'
 >+			Incr #3 by 1 now we have 'o'
->++			Incr #4 by 2 now we have '\'
+>+++++++		Incr #4 by 7 now we have '/'
 <<<
 
 ....			Print the space
